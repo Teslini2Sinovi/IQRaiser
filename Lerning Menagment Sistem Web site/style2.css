@@ -1,11 +1,14 @@
 Body {  
     font-family: Calibri, Helvetica, sans-serif;  
-    background: url(Background.jpg);
-    background-repeat:no-repeat ;
+    background: url(background.png) no-repeat center center fixed;
+	background-size:cover;
+	  position: absolute; 
+
     background-size: 100%;
   }  
- .container {  
-
+  .forums{
+  
+    
 
     margin-top: 15%;
     margin-right: 35%;
@@ -15,7 +18,7 @@ Body {
 
     border-radius: 10px;
 
-        padding: 25px;   
+        padding: 30px;   
         background-color: lightblue;  
     }   
   .upload{
@@ -23,3 +26,26 @@ Body {
 
 
   }
+  .h1{
+
+    color: #188FDD;
+
+
+   }
+   .h2
+   {
+     color: #188FDD;
+    }
+   button {   
+    border-radius: 25px;
+
+       background-color: #188FDD;   
+       width: 100%;  
+        color: white;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         } 
+
+         

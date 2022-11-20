@@ -2,20 +2,39 @@
 <html>
 <head>
 <title>Page Forum</title>
+<link rel="icon" type="image/x-icon" href="icon.png">
+
 </head>
 <body>
     <link rel="stylesheet" href="style2.css">
 
-<div class="container">
-	<label>	Naslov : </label>  
-    <input type="text" placeholder="Naslov" name="naslov" >  
-   <label> Sadrzaj posta : </label>   
-    <textarea id="review" name="review" rows="10" cols="50"></textarea>
-    <br>
-    <button type="button" class="upload">Upload</button>
-    <button type="button" class="submit">Submit</button>
+<div class="forums">
+    <form action="action_page.php">
+        <div class="container">
+          <h1 type="text" class="h1">Register</h1>
+          <h2 type="text" class="h2"  > Please fill in this form to create an account.</h2>
+          <hr>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" id="email" required>
+      
+          <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+          <label for="psw"><b>Password</b></label>
 
- 
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+
+          <hr>
+      
+          <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+          <button type="submit" class="registerbtn">Register</button>
+        </div>
+      
+        <div class="container signin">
+          <p>Already have an account? <a href="#">Sign in</a>.</p>
+        </div>
+      </form>
+  
 
 </div>
 

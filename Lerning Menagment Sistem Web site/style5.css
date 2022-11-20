@@ -1,0 +1,132 @@
+/*images : BackGroundBlue , BackGroundGreen */
+
+
+body{  
+
+
+/*	cbackground-image:url("C:\Users\JOHNNY\Desktop\Lerning Menagment Sistem Web site\images\BackGroundBlue.png");*/
+
+    background: url(background.png) no-repeat center center fixed;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+
+header{
+	
+	
+	
+}
+
+footer{
+	
+	
+	
+}
+
+h1{
+	text-align:center;
+	
+}
+
+p{
+	
+	
+}
+
+/*Definicija grida*/
+#MainNav{
+	
+
+}
+#Main{
+	
+	margin-left:5%;
+	margin-right:5%;
+	background-color:rgba(0,0,0,0.5);
+	border-style: solid;
+	color:white;
+	
+}
+#User{
+	
+	width="120"; 
+	height=120;
+	
+}
+/*Clasa za slike predmeta i sekcija*/
+.predmet{
+	
+	width:128px;
+	height:128px;
+	
+	
+	
+	
+	
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  text-align: left;
+  
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column: 1 / span 6;
+  background:url(zmaj.jpg);
+  background-size:cover;
+  background-repeat:no repeat;
+}
+
+.item2{
+	  grid-column: 2 / span 1;
+
+	
+	
+	
+}
+
+
+/*Positioning of cards 3 in ro2 */
+
+.column3 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row3::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/*Positioning of cards 2 in ro2 */
+
+.column2 {
+  float: left;
+  width: 45%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+/*Harisov dio cssa*/
